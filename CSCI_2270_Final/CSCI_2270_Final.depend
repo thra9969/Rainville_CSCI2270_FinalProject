@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1461787929 source:/home/user/Desktop/CSCI_2270_Final/main.cpp
+	<iostream>
+	"Final.h"
+	<fstream>
+	<string>
+	<stdlib.h>
+	<json/json.h>
+	<vector>
+	<sstream>
+
+1461787929 /home/user/Desktop/CSCI_2270_Final/include/Final.h
+
+1461788182 source:/home/user/Desktop/CSCI_2270_Final/src/Final.cpp
+	<iostream>
+	"Final.h"
+	<fstream>
+	<string>
+	<stdlib.h>
+	<json/json.h>
+	<vector>
+	<sstream>
+
