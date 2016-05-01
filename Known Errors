@@ -1,0 +1,3 @@
+The biggest issue I found was that the program has a segmentation fault after adding an adventure. 
+I'm sure this can be fixed with a little work on the linked list.
+The multiplication and division functions are also reversed. Easy fix. 
