@@ -40,8 +40,8 @@ int main()
             cout << "Quest #3: " << endl;
             getline(cin,inputString3);
             B.adventure(inputString1);
-            B.advafter(inputString1, inputString2);
-            B.advafter(inputString2, inputString3);
+            B.adventure(inputString2);
+            B.adventure(inputString3);
         }
         if (x == 2){
             cout << "Oh Hello There! I See You Forgot To Include One Of Your Important Endeavors!" << endl;

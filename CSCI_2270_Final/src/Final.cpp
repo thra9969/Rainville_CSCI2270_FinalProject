@@ -19,16 +19,22 @@ Final::~Final()
     //dtor
 }
 void Final::adventure(string x){
-    struct Node *temp;
-    temp=(struct Node *)malloc(sizeof(struct Node));
+    Node *temp=new Node;
+    Node *current=head;
     temp->key=x;
-    if (head== NULL){
+    temp->next=NULL;
+    temp->previous=NULL;
+    if (current== NULL){
         head=temp;
-        head->next=NULL;
+        temp->next=NULL;
+        temp->previous=NULL;
     }
     else{
-        temp->next=head;
-        head=temp;
+        while(current->next!=NULL)
+            current=current->next;
+        current->next=temp;
+        temp->previous=current;
+        temp->next=NULL;
     }
 }
 void Final::advafter(string x, string y){

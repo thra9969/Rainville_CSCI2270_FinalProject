@@ -22,8 +22,7 @@ class Final
         void division(float x, float y);
     protected:
     private:
-        Node *current;
-        Node *head;
+        Node *head=NULL;
         Node *tail;
 };
 
